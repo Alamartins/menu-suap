@@ -1,8 +1,9 @@
-function Button({cor, frase, contador, atualiza}){
+import "./Button.css"
+function Button({frase}){
 
     return(
-        <button style={{backgroundColor: cor}} >
-            {frase} {contador} 
+        <button className="maisNoticias">
+            {frase}
         </button>
     );
 }
