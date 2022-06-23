@@ -1,0 +1,21 @@
+.card{
+    background-color: lightblue;
+    border-left: 5px solid dodgerblue;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.desc{
+    text-align: center;
+}
+p{
+    margin: 0;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
