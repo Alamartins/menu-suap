@@ -1,11 +1,13 @@
 import {useState} from 'react';
 import styles from './Noticia.css';
-function Noticia({horario, desc}){
+function Noticia({name, desc, users, project}){
 
     return(
         <div class='card'>
-            <p className='data'>{horario}</p>
+            <p className='data'>{name}</p>
             <p className='desc'>{desc}</p>
+            <p className='users'>{users}</p>
+            <p className='project'>{project}</p>
         </div>
     );
 }
