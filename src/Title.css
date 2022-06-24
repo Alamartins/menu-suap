@@ -1,6 +1,13 @@
 .title, .subtitle {
-    margin: 0 0 0 20px;
+    margin:20px;
+    
 }
 .subtitle{
-    color: #aaa;
+    color: black;
+    font-size: 16px;
+    font-family: Heveltica;
+}
+.title{
+    color: black;
+    font-size: 26px;
 }
